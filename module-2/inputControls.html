@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Input Controls</title>
+  </head>
+  <body>
+    <textarea rows="3" cols="30">
+      We live in a mobile-first and cloud-first world. Computing is ubiquitous, and experiences span devices and exhibit ambient intelligence.
+    </textarea>
+    <br />
+    <!-- The select element renders a drop-down list with multiple options -->
+    <select>
+      <option value="DAT202x">Processing Big Data with Azure HDInsight</option>
+      <option value="DAT204x">Introduction to R Programming</option>
+      <option value="CLD203x">Office 365: Managing Identities and Services</option>
+      <option value="DEV208x">Introduction to jQuery</option>
+    </select>
+    <br />
+    <!-- Alternatively, you can use the optgroup element to group related options -->
+    <select>
+      <optgroup label="Data Platform">
+        <option value="DAT202x">Processing Big Data with Azure HDInsight</option>
+        <option value="DAT204x">Introduction to R Programming</option>
+      </optgroup>
+      <optgroup label="Cloud">
+        <option value="CLD203x">Office 365: Managing Identities and Services</option>
+      </optgroup>
+      <optgroup label="Develoopment">
+        <option value="DEV208x">Introduction to jQuery</option>
+      </optgroup>
+    </select>
+    <br />
+    <!-- The input element is the most basic form element in HTML -->
+    <!-- For a list of what you can do, go to https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+    <form>
+      Username: <input type="text" name="username" />
+      Email Address: <input type="email" name="emailaddress" />
+    </form>
+    <br />
+    <!-- The special button element functions similarly to an input element of type button
+         but it also allows you to render custom content within the button -->
+    <button type="button">
+      <img src="images/microsoft.png" alt="Microsoft" />
+      <br />
+      Apply to Microsoft!
+    </button>
+  </body>
+</html>
