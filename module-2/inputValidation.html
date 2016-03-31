@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Input Validation</title>
+</head>
+<body>
+  <!-- The required attribute specifies that a text input must have valid data before the HTML form is saved -->
+  <input name="email_address" type="email" required="required" /><br />
+  <!-- The pattern attribute specifies a regular expression that the value of the input field must match before the HTML form is saved -->
+  <input name="zip_code" type="text" pattern="\d{5}(-\d{4})?" required="required" /><br />
+  <input name="profile_url" type="url" readonly="readonly" /><br />
+  <input type="submit" disabled="disabled" /><br />
+  <input name="service_date" type="date" min="2000-01-01" max="2999-12-31" /><br />
+  <input name="api_key" type="text" autocomplete="off" /><br />
+  <input name="account_name" type="text" placeholder="Account name must contain at least 4 characters." /><br />
+  <!-- If you would rather handle validation manually or using your own code, you can always skip validation using the novalidate attribute-->
+  <form novalidate="novalidate">
+  </form>
+</body>
+</html>
