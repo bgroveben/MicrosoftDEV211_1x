@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>HTML Audio/Video Formats</title>
+  </head>
+  <body>
+    <!-- You can define multiple source for the video or audio control to handle the most browsers possible:
+         The sources will be attempted in order from top to bottom
+         Again, these are example files that do not exist and won't do anything when accessed -->
+    <audio controls="controls">
+      <source src="audio/music.ogg" type="audio/ogg" />
+      <source src="audio/music.wav" type="audio/wav" />
+      <source src="audio/music.mp3" type="audio/mpeg" />
+    </audio>
+    <video controls="controls">
+      <source src="video/movie.webm" type="video/webm" />
+      <source src="video/movie.ogg" type="video/ogg" />
+      <source src="video/movie.mp4" type="video/mp4" />
+    </video>
+    <!-- The audio and video elements in HTML5 allow you to handle unsupported browsers by displaying HTML
+         content if the audio/video player is not available -->
+    <audio controls="controls">
+      <source src="audio/music.ogg" type="audio/ogg" />
+      Sorry, your browser does not support the OGG format.
+    </audio>
+    <video controls="controls">
+      <source src="video/movie.webm" type="video/webm" />
+      Sorry, your browser does not support the WebM format.
+    </video>
+  </body>
+</html>
