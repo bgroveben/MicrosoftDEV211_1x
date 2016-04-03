@@ -4,4 +4,4 @@ Microsoft DEV211.1x beginning March 25, 2016.
 
 I am at:
 
-Module 2: Creating Sophisticated Document Structures using HTML
+Module 3: Design Web Page Elements Using Cascading Style Sheets 
