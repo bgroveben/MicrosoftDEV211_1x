@@ -1,0 +1,15 @@
+section p {
+  font-family: monospace;
+}
+
+section > p {
+  font-weight: bold;
+}
+
+section > article > aside > p {
+  font-size: 2em;
+}
+
+section > article p {
+  font-style: italic;
+}
