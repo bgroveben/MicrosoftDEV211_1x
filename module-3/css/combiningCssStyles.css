@@ -1,0 +1,33 @@
+article {
+  font-weight: bold;
+}
+
+article.spacer {
+  padding: 15px;
+  margin: 25px;
+  border: thin lightgray solid;
+}
+
+.babyBlueBackground {
+  background-color: #57bcf4;
+}
+
+.grayBackground {
+  background-color: #bfb3b5;
+}
+
+.blackBackground {
+  background-color: #242730;
+}
+
+.babyBlueText {
+  color: #57bcf4;
+}
+
+section.purpleText {
+  color: #923c9b;
+}
+
+article.purpleText {
+  color: #461559;
+}
