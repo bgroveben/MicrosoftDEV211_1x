@@ -1,0 +1,59 @@
+/* Media Types*/
+
+@media screen {
+  body {
+    background-color: red;
+  }
+}
+
+@media print {
+  body {
+    background-color: white;
+  }
+}
+
+@media speech { /* for screen readers */
+  aside {
+    display: none;
+  }
+}
+
+/* Media Widths */
+
+@media (min-width: 500px) {
+  nav {
+    width: 100px;
+  }
+}
+
+@media (min-height: 500px) {
+  nav {
+    height: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    width: 50px;
+  }
+}
+
+/* Simple Media Query Logic */
+
+@media (min-width: 500px) and (max-width: 1000px) {
+  header {
+    font-size: larger;
+  }
+}
+
+@media (min-width: 1000px), (max-width: 500px) {  /* comma is logical OR operator */
+  footer {
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 500px) {
+  article {
+    font-style: italic;
+  }
+}
