@@ -1,0 +1,24 @@
+article {
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+article.simpleBorder {
+  border-width: thick;
+  border-color: #69d2e7;
+  border-style: solid;
+}
+
+article.complexBorder {
+  border-width: 15px;
+  border-color: #f38630;
+  border-style: inset solid;
+}
+
+article.shortBorder {
+  border: 25px #fa6900 dashed;
+  background-color: #e0e4cc
+}
