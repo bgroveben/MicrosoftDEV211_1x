@@ -5,6 +5,11 @@ body {
 header {
   background-color: #242323;
   color: #efefef;
+  padding: 20px 50px;
+}
+
+main {
+  padding: 5px 10px;
 }
 
 h3, article h4 {
