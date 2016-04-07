@@ -12,7 +12,7 @@ footer {
 /* Here's one that I have locally */
 @font-face {
   font-family: Verdana;
-  src: url(/Library/Fonts/Verdana.ttf);
+  src: url('/Library/Fonts/Verdana.ttf');
 }
 
 /* More examples from the course files */
