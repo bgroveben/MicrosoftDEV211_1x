@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Javascript Control Statements</title>
+</head>
+<body>
+  This page just throws a couple of alerts at you. Check out the code to see some javascript control statements.
+  <script>
+
+  var day;
+  if (day > 5) {
+    var greeting = "Have a good weekend!";
+  }
+
+  if (day > 5) {
+    greeting = "Have a good weekend!";
+  } else {
+    greeting = "Welcome to work!";
+  }
+
+  if (day > 5) {
+    greeting = "Have a good weekend!";
+  } else if (day < 2) {
+    greeting = "Are you having a case of the Mondays?";
+  } else {
+    greeting = "Welcome to work!";
+  }
+
+  var text;
+  var countries = ["USA", "JPN", "RUS", "ENG"];
+  for (var i = 0; i < countries.length; i++) {
+    text += countries + "<br />";
+  }
+
+  var sum = 0;
+  var numbers = [4, 9, 16, 25];
+  function increment(item, index) {
+    sum += item;
+  }
+  numbers.forEach(increment);
+  alert(sum);
+
+  var day;
+  switch (new Date().getDay()) {
+    case 0:
+      day = "Sunday";
+      break;
+    case 1:
+      day = "Monday";
+      break;
+    case 2:
+      day = "Tuesday";
+      break;
+    case 3:
+      day = "Wednesday";
+      break;
+    case 4:
+      day = "Thursday";
+      break;
+    case 5:
+      day = "Friday";
+      break;
+    case 6:
+      day= "Saturday";
+      break;
+  }
+  alert(day);
+
+  </script>
+</body>
+</html>
