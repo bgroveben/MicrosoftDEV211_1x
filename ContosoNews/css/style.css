@@ -1,11 +1,23 @@
+@font-face {
+  font-family: 'News Cycle';
+  src: url('../fonts/news_cycle.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Contrail One';
+  src: url('../fonts/contrail_one.ttf') format('truetype');
+}
+
 body {
   color: #635959;
+  font-family: 'News Cycle';
 }
 
 header {
   background-color: #242323;
   color: #efefef;
   padding: 20px 50px;
+  font-family: 'Contrail One';
 }
 
 main {
