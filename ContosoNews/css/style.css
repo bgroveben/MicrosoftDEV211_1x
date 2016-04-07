@@ -8,16 +8,39 @@
   src: url('../fonts/contrail_one.ttf') format('truetype');
 }
 
-body {
-  color: #635959;
-  font-family: 'News Cycle';
+@media not print {
+  body {
+    color: #635959;
+    font-family: 'News Cycle';
+  }
+  header {
+    background-color: #242323;
+    color: #efefef;
+    padding: 20px 50px;
+    font-family: 'Contrail One';
+  }
+  h3, article h4 {
+    color: #8c1018;
+  }
+  article a {
+    color: #314052;
+  }
+  main > h3 {
+    font-size: 2em;
+  }
 }
 
-header {
-  background-color: #242323;
-  color: #efefef;
-  padding: 20px 50px;
-  font-family: 'Contrail One';
+@media print {
+  header {
+    padding: 0px;
+  }
+  article {
+    box-shadow: none;
+  }
+  header h1 {
+    font-size: 2em;
+    display: none;
+  }
 }
 
 main {
@@ -28,14 +51,6 @@ article {
   margin: 5px 0px;
   padding: 5px 5px;
   box-shadow: -1px -1px 6px #888888;
-}
-
-h3, article h4 {
-  color: #8c1018;
-}
-
-article a {
-  color: #314052;
 }
 
 header h1 {
@@ -56,8 +71,4 @@ article > time {
   float: right;
   font-size: 0.75em;
   font-weight: lighter;
-}
-
-main > h3 {
-  font-size: 2em;
 }
