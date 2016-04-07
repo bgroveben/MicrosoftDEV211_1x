@@ -24,6 +24,12 @@ main {
   padding: 5px 10px;
 }
 
+article {
+  margin: 5px 0px;
+  padding: 5px 5px;
+  box-shadow: -1px -1px 6px #888888;
+}
+
 h3, article h4 {
   color: #8c1018;
 }
