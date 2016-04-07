@@ -11,13 +11,10 @@
 @media not print {
   body {
     color: #635959;
-    font-family: 'News Cycle';
   }
   header {
     background-color: #242323;
     color: #efefef;
-    padding: 20px 50px;
-    font-family: 'Contrail One';
   }
   h3, article h4 {
     color: #8c1018;
@@ -39,8 +36,22 @@
   }
   header h1 {
     font-size: 2em;
+  }
+  header h2 {
     display: none;
   }
+}
+
+body {
+  color: #635959;
+  font-family: 'News Cycle';
+}
+
+header {
+  background-color: #242323;
+  color: #efefef;
+  padding: 20px 50px;
+  font-family: 'Contrail One';
 }
 
 main {
