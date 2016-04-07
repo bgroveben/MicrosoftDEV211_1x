@@ -1,0 +1,19 @@
+/* Additional Keywords -- Use your eyes and brain */
+
+@media all {
+  body > article {
+    font-family: serif;
+  }
+}
+
+@media speech {
+  body > section.screenReaderOverview {
+    display: block;
+  }
+}
+
+@media not speech {
+  body > section.screenReaderOverview {
+    display: none;
+  }
+}
