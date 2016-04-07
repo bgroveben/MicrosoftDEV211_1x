@@ -1,0 +1,46 @@
+/* Import an external font file */
+@font-face {
+  font-family: "Demo Font";
+  src: url(/demofont.otf);
+}
+
+/* Once defined, you can then use the new font family */
+footer {
+  font-family: "Demo Font", Arial, sans-serif;
+}
+
+/* Here's one that I have locally */
+@font-face {
+  font-family: Verdana;
+  src: url(/Library/Fonts/Verdana.ttf);
+}
+
+/* More examples from the course files */
+@font-face {
+  font-family: "Simple Font";
+  src: url(simplefont.ttf);
+}
+
+@font-face {
+  font-family: "Simple Font";
+  font-weight: bold;
+  src: url(simplefont_bold.ttf);
+}
+
+@font-face {
+  font-family: "Simple Font";
+  font-style: italic;
+  src: url(simplefont_italic.ttf);
+}
+
+body {
+  font-family: "Simple Font";
+}
+
+footer {
+  font-style: italic;
+}
+
+header {
+  font-weight: bold;
+}
