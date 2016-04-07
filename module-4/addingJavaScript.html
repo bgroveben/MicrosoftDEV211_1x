@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Adding JavaScript</title>
+</head>
+<body>
+  <header id="headerItem">
+    Old Header
+    <button onclick="startLogic()">Click to change header</button>
+  </header>
+  <section>
+    <button onclick="clickHandler()">Click Here</button>
+  </section>
+  <script type="text/javascript">
+    function startLogic() {
+      var newHtml = '<em>New Header</em>';
+      document.getElementById('headerItem').innerHTML = newHtml;
+    }
+
+    function clickHandler(){
+      alert('You clicked me!');
+    }
+  </script>
+</body>
+</html>
