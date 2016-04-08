@@ -1,0 +1,11 @@
+var $elem = document.getElementById('output');
+var nextLine = '<br />';
+$elem.innerHTML += 'Test';
+$elem.innerHTML += nextLine;
+$elem.innerHTML += 4 + 6;
+$elem.innerHTML += nextLine;
+$elem.innerHTML += 4 + 6 + ' Demo';
+$elem.innerHTML += nextLine;
+$elem.innerHTML += 'Demo ' + 4 + 6;
+$elem.innerHTML += nextLine;
+$elem.innerHTML += 'Demo ' + (4 + 6);
