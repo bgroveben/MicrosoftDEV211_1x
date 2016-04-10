@@ -1,0 +1,21 @@
+section {
+  margin: 35px;
+  padding: 35px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.outermost {
+  background-color: #0e4241;
+}
+
+section.middlemost {
+  background-color: #256363;
+}
+
+section.innermost {
+  background-color: #217773;
+}
