@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Event Handling</title>
+  </head>
+  <body>
+    <p id="dateTarget">
+      <button onclick='getElementById("dateTarget").innerHTML = Date()'>Get Current Time</button>
+    </p>
+    <p id="dateTargetFunction">
+      In this example, the button does the same thing, but we are referencing a function in JavaScript.
+      <button onclick='handleClick()'>Get Current Time</button>
+    </p>
+    <p id="assignEventJavascript">
+      In this example, we also move the event assignment to JavaScript.
+      <button id="dateButton">Get Current Time</button>
+    </p>
+    <p id="listenForEvents">
+      Alternatively, you can use the addEventListener function for event assignment by either referencing a function using its named identifier or by supplying an anonymous function. <br />
+      <button id="namedIdentifier">Named Identifier</button><br />
+      <button id="anonymousFunction">Anonymous Function</button>
+    </p>
+
+    <script type="text/javascript" src="js/eventHandling.js"></script>
+  </body>
+</html>
