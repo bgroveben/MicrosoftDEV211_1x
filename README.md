@@ -4,4 +4,4 @@ Microsoft DEV211.1x beginning March 25, 2016.
 
 I am at:
 
-Module 4: Implementing Program Flow using JavaScript 
+Module 5: Adding External Libraries to Enhance HTML Applications 

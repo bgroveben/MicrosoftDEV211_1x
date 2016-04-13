@@ -91,7 +91,7 @@ section#carousel > figure > img {
   margin: 0px auto;
 }
 
-section#carousel >  figure.visible > img {
+section#carousel > figure.visible > img {
   display: block;
   position: relative;
   overflow: hidden;
