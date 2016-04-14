@@ -1,0 +1,29 @@
+/* SCSS
+The newer syntax is similar to CSS in that it uses curly brackets for rule sets and ends each property assignment with a semi-colon: */
+
+$blue: #3bbfce;
+$margin: 16px;
+.content-navigation {
+  border-color: $blue;
+  color: darken($blue, 10%);
+}
+.border {
+  padding: $margin / 2;
+  margin: $margin / 2;
+  border-color: $blue;
+}
+
+$itemCount: 5;
+@mixin left($dist) {
+  float: left;
+  margin-left: $dist;
+}
+#data {
+  @include left(10px);
+}
+@for $i from 1 through $itemCount {
+  #square-#{$i} {
+    width: 50px * $i;
+    height: 120px / $i;
+  }
+}
