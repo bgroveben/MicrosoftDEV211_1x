@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(){
 // Run the following commands in the console:
   $('*').length;
   $('*:empty').length;
