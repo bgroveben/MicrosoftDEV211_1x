@@ -1,0 +1,13 @@
+body header {
+  color: #65665a;
+}
+
+body footer {
+  color: #08424d;
+}
+
+body p {
+  padding: 12px;
+  background-color: #65665a;
+  color: #ffffff;
+}
