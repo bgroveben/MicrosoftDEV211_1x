@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Bootstrap JavaScript</title>
+    <link href="css/bootstrapJavascript.css" rel="stylesheet">
+  	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<script src="js/bootstrapJavascript.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Ben's Web App</a>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <h1>Learning About HTML?</h1>
+      <p class="lead">This course will help you get ready to build HTML web applications.</p>
+    </div>
+    <ul class="list-group">
+      <li class="list-group-item"><span class="badge">14</span> Cras justo odio</li>
+			<li class="list-group-item"><span class="badge">2</span> Dapibus ac facilisis in</li>
+			<li class="list-group-item"><span class="badge">1</span> Morbi leo risus</li>
+    </ul>
+    <div class="alert alert-warning">
+      <strong>Heads Up!</strong> This <a class="alert-link" href="#">alert needs your attention</a>, but it's not super important.
+    </div>
+    <div class="alert alert-dismissable alert-danger alert-info">
+      <button class="close" data-dismiss="alert" type="button">X</button>
+      <strong>Heads Up!</strong> This <a class="alert-link" href="#">alert needs your attention</a>, but it's not super important.
+    </div>
+    <div class="container">
+      <button class="btn btn-default" data-placement="left" data-toggle="tooltip" title="Tooltip on left" type="button">Tooltip on left</button>
+    </div>
+    <div class="container">
+      <button class="btn btn-lg btn-danger" data-content="And here is some amazing content. It is very engaging." data-toggle="popover" title="Popover title" type="button">Click to toggle popover</button>
+    </div>
+    <div class="container">
+      <button aria-controls="collapseExample" aria-expanded="false" class="btn btn-primary" data-target="#collapseExample" data-toggle="collapse" type="button">Button with data target</button>
+    </div>
+    <div class="collapse" id="collapseExample">
+      <div class="well">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </body>
+</html>
