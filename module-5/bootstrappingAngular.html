@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Bootstrapping Angular</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="js/bootstrappingAngular.js"></script>
+  </head>
+  <body ng-app="basicApp">
+    <div ng-controller="homeController">
+      <label>Username:</label>
+      <input type="text" ng-model="username" placeholder="Enter a username" />
+      <hr />
+      <h2>Hello {{username}}</h2>
+      <button type="button" ng-click="testMe()">Test Me</button>
+    </div>
+  </body>
+</html>
