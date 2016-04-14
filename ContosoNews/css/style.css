@@ -44,7 +44,7 @@
 
 body {
   color: #635959;
-  font-family: 'News Cycle';
+  font-family: 'News Cycle' !important;
 }
 
 header {
@@ -56,12 +56,6 @@ header {
 
 main {
   padding: 5px 10px;
-}
-
-article {
-  margin: 5px 0px;
-  padding: 5px 5px;
-  box-shadow: -1px -1px 6px #888888;
 }
 
 header h1 {
