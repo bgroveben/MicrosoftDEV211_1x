@@ -78,7 +78,17 @@ article > time {
   font-weight: lighter;
 }
 
-/* Carousel */
+/* Bootstrap Carousel */
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel .item > img {
+  display: inline-block;
+}
+
+/* CSS carousel has been replaced by the Bootstrap carousel
 
 section#carousel > figure > img {
   display: none;
@@ -101,3 +111,4 @@ section#carousel > figure.visible > figcaption {
   font-weight: bold;
   font-size: 1.5em;
 }
+*/
