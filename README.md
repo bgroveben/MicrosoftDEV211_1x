@@ -2,6 +2,4 @@ Code from the edX class "Introduction to HTML, CSS, and Javascript Web Developme
 
 Microsoft DEV211.1x beginning March 25, 2016.
 
-I am at:
-
-Module 5: Adding External Libraries to Enhance HTML Applications 
+Finished April 14, 2016. Check out the Contoso News page, it looks pretty good. 
